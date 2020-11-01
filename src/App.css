@@ -1,0 +1,59 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-body {
+  margin-top: -300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast-buttons {
+  display: flex;
+}
+
+.toast-buttons button {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  width: 300x;
+  height: 30px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+}
+.toast-buttons button :hover {
+	box-shadow: 0 0 12px lightskyblue;
+	opacity: 1;
+	cursor: pointer
+}
+.select {
+  display: flex;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.position-select {
+  background-color: inherit;
+  color: #fff;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+
